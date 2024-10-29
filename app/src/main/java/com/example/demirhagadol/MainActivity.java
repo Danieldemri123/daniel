@@ -19,16 +19,7 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        Button btn;
-        btn = findViewById(R.id.button);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                TextView tvbt;
-                tvbt =findViewById(R.id.TextView);
-                tvbt.setText("daniel");
-            }
-        });
+
 
 
     }
